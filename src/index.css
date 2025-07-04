@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+* {
+  font-family: "Nunito", sans-serif;
+  box-sizing: border-box;
+}
+
+body{
+  background:   #ebe8fb
+
+}
