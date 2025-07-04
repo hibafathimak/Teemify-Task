@@ -27,12 +27,9 @@ const NavBar = ({}) => {
     <nav className="bg-white shadow-lg rounded-2xl">
       <div className=" flex  items-center justify-between mx-auto p-4">
         <Link to="/" className="flex items-center gap-2">
-          <div className="h-5 w-5 rounded-lg p-4 bg-teal-700 text-3xl flex place-items-center place-content-center text-white font-bold">
-            T
-          </div>
           <span
             style={{ fontFamily: "sans-serif" }}
-            className="text-3xl font-bold text-[#333]"
+            className="text-3xl font-bold text-teal-700"
           >
             Teemify
           </span>

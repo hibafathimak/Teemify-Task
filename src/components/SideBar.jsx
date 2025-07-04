@@ -19,10 +19,6 @@ const SideBar = () => {
       className="h-[calc(100vh-130px)] bg-white md:p-4 p-2 rounded-xl mt-4 flex flex-col  transition-all
         w-14 md:w-56"
     >
-      <div className="mb-6">
-        <span className="hidden md:block text-xl font-semibold">Menu</span>
-      </div>
-
       <ul className="space-y-10 mt-6 flex flex-col items-center md:items-start">
         {menuItems.map((item, index) => (
           <li key={index} className="relative group">
